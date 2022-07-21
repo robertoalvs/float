@@ -1,0 +1,164 @@
+@charset "UTF-8";
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+
+    width: 100%;
+    background-color: bisque;
+}
+
+header {
+
+    width: 98.4%;
+    height: 90px;
+    background-color: rgba(232, 189, 124, 0.447);
+    border-radius: 20px;
+    border: 10px double black;
+    
+}
+
+.navegacao1 > ul li {
+
+    display: inline-block;
+    padding: 55px 15px 0 20px ;   
+}
+
+.formulario {
+
+    float: right;
+    margin-top: -70px;
+    padding: 10px 20px 0 0;
+}
+
+.login {
+
+    float: right;
+    margin-right: 50px;
+}
+
+article {
+
+    background-color: rgba(97, 61, 131, 0.359);
+    width: 23%;
+    max-width: 950px;
+    height: 500px;
+    float: left;
+    padding: 15px;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin: 2px 0 2px 0;
+}
+
+article img {
+
+    float: left;
+    margin: 14px 5px 0 0 ;
+    padding: 3px;
+}
+
+article h1 {
+
+    padding: 13px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+article p {
+
+    text-align: justify;
+    padding-left: 3px;
+    margin-bottom: 50px;
+    word-spacing: -2px;
+    
+}
+
+.paragrafo2 {
+
+    padding: 20px;
+    margin: 5px;
+    border: 4px dotted black;
+    text-align: justify;
+    line-height: 1.2em;
+    word-spacing: -2px;
+    
+}
+
+main {
+
+    background-color: rgba(116, 51, 51, 0.39);
+    width: 49%;
+    max-width: 950px;
+    height: 500px;
+    float: left;
+    padding: 15px;
+    border: 4px solid black;
+    margin: 2px 4px 0 3px;
+    border-radius: 20px;
+}
+
+.sessao1, img {
+
+    float: left;
+    margin: 17px 5px 0 0 ;
+}
+
+.sessao1 p {
+
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+.sessao2 img {
+
+    float: left;
+    margin: 17px 5px 0 0 ;
+}
+
+.sessao2 p {
+
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+aside {
+
+    background-color: rgba(192, 120, 94, 0.433);
+    width: 19.20%;
+    max-width: 950px;
+    height: 510px;
+    float: right;
+    padding: 10px;
+    display: block;
+    border: 4px solid black;
+    border-radius: 20px;
+    margin: 2px 0 2px 0;
+}
+
+.liaside {
+
+    list-style-position: inside;
+}
+
+footer {
+
+    background-color: rgba(0, 0, 0, 0.152);
+    width: 98.4%;
+    height: 70px;
+    clear: both;
+    border-radius: 20px;
+    border: 10px double black;
+    
+}
+
+.end {
+
+    text-align: end;
+    padding: 30px 10px 0 0;
+}
