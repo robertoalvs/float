@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive; 
+}
+
+
+body {
+
+    background-color: white;
+    min-height: 100vh;
+    font-family: var(--fonte1)
+}
+
+header {
+
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+}
+
+header p {
+
+    padding-bottom: 50px;
+}
+
+header h1 {
+
+    font-family: var(--fonte2);
+    font-size: 10vh;
+    font-variant: small-caps;
+}
+
+section {
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-family: var(--fonte3);
+    font-size: 3vw;
+}
+
+section p {
+
+    padding-bottom: 2em;
+}
+
+.sessao1 {
+
+    background-color: white;
+    color: black;
+}
+.sessao2 {
+
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px black;
+}
+
+.sessao2 p {
+
+    background-color: rgba(0, 0, 0, 0.534);
+    display: inline-block;
+    padding: 5px;
+    text-shadow: 1px 1px 1px black;
+}
+
+#img1 {
+
+    background-image: url(../html5-css3/html5-css3/DESAFIOS/desafio012/imagens/RSA_PC_GAMER_4K.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#img2 {
+
+    background-image: url(../html5-css3/html5-css3/DESAFIOS/desafio012/imagens/RSA_PC_GAMER_QHD.jpg);
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
